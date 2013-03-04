@@ -15,4 +15,6 @@ set shiftwidth=4
 set tabstop=4
 set nowrap
 
+nmap Y y$
+
 au VimEnter * RainbowParenthesesToggle
