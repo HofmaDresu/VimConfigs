@@ -15,6 +15,7 @@ set shiftwidth=4
 set tabstop=4
 set nowrap
 
-nmap Y y$
+"Set 'Y' to Select Line and Yank
+nmap Y <s-v>y
 
 au VimEnter * RainbowParenthesesToggle
