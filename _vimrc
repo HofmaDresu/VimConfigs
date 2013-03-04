@@ -19,5 +19,7 @@ set nowrap
 nmap Y <s-v>y
 "Set 'jj' to act like <esc>
 ino jj <esc>
+"Make backspace work in text in insert mode
+set backspace=start
 
 au VimEnter * RainbowParenthesesToggle
