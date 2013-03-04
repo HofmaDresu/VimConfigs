@@ -15,6 +15,9 @@ set shiftwidth=4
 set tabstop=4
 set nowrap
 
-nmap Y y$
+"Set 'Y' to Select to end of Line and Yank
+nmap Y <s-v>y
+"Set 'jj' to act like <esc>
+ino jj <esc>
 
 au VimEnter * RainbowParenthesesToggle
