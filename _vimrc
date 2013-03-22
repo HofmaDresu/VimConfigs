@@ -17,6 +17,8 @@ set nowrap
 
 "Set 'Y' to Select to end of Line and Yank
 nmap Y <s-v>y
+"Set 'yyy' to Yank the entire file
+nmap yyy gg<s-v><s-g>y
 "Set 'jj' to act like <esc>
 ino jj <esc>
 "Make backspace work in text in insert mode
