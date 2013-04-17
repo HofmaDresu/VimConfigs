@@ -6,5 +6,5 @@ if exists('b:current_syntax') && b:current_syntax == 'psv'
   finish
 endif
 
-syn match coffeeComment /|/ contains=@Spell,coffeeTodo
-hi def link coffeeComment Comment
+syn match psvComment /|/ 
+hi def link psvComment Comment
