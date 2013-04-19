@@ -15,6 +15,8 @@ set shiftwidth=4
 set tabstop=4
 set nowrap
 set guioptions+=b
+set guioptions-=m
+set guioptions-=T
 
 "Set 'Y' to Select to end of Line and Yank
 nmap Y <s-v>y
