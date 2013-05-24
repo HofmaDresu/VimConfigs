@@ -14,6 +14,9 @@ set expandtab
 set shiftwidth=4
 set tabstop=4
 set nowrap
+set guioptions+=b
+set guioptions-=m
+set guioptions-=T
 
 "Set 'Y' to Select to end of Line and Yank
 nmap Y <s-v>y
@@ -23,5 +26,8 @@ nmap yyy gg<s-v><s-g>y
 ino jj <esc>
 "Make backspace work in text in insert mode
 set backspace=start
+"Map F2 to toggle word wrap and horizontal scrollbar
+nnoremap <silent><expr> <f2> ':set wrap ! go'.'-+'[&wrap]."=b\r"
 
 au VimEnter * RainbowParenthesesToggle
+
