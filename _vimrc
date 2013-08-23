@@ -28,6 +28,9 @@ ino jj <esc>
 set backspace=start
 "Map F2 to toggle word wrap and horizontal scrollbar
 nnoremap <silent><expr> <f2> ':set wrap ! go'.'-+'[&wrap]."=b\r"
+"Map lll to CTRL+y, for an easier use of zencoding
+nmap lll <c-y>,
+imap lll <c-y>,
 
 au VimEnter * RainbowParenthesesToggle
 
