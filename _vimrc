@@ -7,6 +7,7 @@ filetype indent on
 filetype plugin on
 set ai
 set rnu
+set nu
 set clipboard=unnamed
 set ignorecase
 set smartcase
