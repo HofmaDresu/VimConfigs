@@ -3,8 +3,6 @@ colo wombat
 set guifont=Consolas:h12:cANSI
 syntax enable
 
-filetype indent on
-filetype plugin on
 set ai
 set rnu
 set nu
@@ -18,6 +16,20 @@ set nowrap
 set guioptions+=b
 set guioptions-=m
 set guioptions-=T
+filetype off                  
+
+set rtp+=~/vimfiles/bundle/vundle/
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+Bundle 'mattn/emmet-vim'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'elixir-lang/vim-elixir'
+Bundle 'mattn/webapi-vim'
+Bundle 'mattn/gist-vim'
+
+filetype plugin indent on
 
 "Set 'Y' to Select to end of Line and Yank
 nmap Y <s-v>y
