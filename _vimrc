@@ -35,6 +35,8 @@ filetype plugin indent on
 nmap Y <s-v>y
 "Set 'yyy' to Yank the entire file
 nmap yyy gg<s-v><s-g>y
+"Set oo to create a new line and delete to the beginning
+nnoremap oo o<esc>d^i
 "Set 'jj' to act like <esc>
 ino jj <esc>
 "Make backspace work in text in insert mode
