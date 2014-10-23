@@ -28,8 +28,8 @@ Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'elixir-lang/vim-elixir'
 Bundle 'mattn/webapi-vim'
 Bundle 'mattn/gist-vim'
-Bundle 'scrooloose/nerdtree'
 Bundle 'HofmaDresu/tabbed-note-vim'
+Bundle 'vim-scripts/MultipleSearch'
 
 filetype plugin indent on
 
