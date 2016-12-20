@@ -18,19 +18,20 @@ set guioptions-=m
 set guioptions-=T
 filetype off                  
 
-set rtp+=~/vimfiles/bundle/vundle/
-call vundle#rc()
+set rtp+=%HOME%/vimfiles/bundle/Vundle.vim/
+call vundle#begin('%USERPROFILE%/vimfiles/bundle/')
 
-Bundle 'gmarik/vundle'
+Plugin 'gmarik/vundle'
 
-Bundle 'mattn/emmet-vim'
-Bundle 'kien/rainbow_parentheses.vim'
-Bundle 'elixir-lang/vim-elixir'
-Bundle 'mattn/webapi-vim'
-Bundle 'mattn/gist-vim'
-Bundle 'HofmaDresu/tabbed-note-vim'
-Bundle 'vim-scripts/MultipleSearch'
+Plugin 'mattn/emmet-vim'
+Plugin 'kien/rainbow_parentheses.vim'
+Plugin 'elixir-lang/vim-elixir'
+Plugin 'mattn/webapi-vim'
+Plugin 'mattn/gist-vim'
+Plugin 'HofmaDresu/tabbed-note-vim'
+Plugin 'vim-scripts/MultipleSearch'
 
+call vundle#end()
 filetype plugin indent on
 
 "Set 'Y' to Select to end of Line and Yank
