@@ -18,8 +18,8 @@ set guioptions-=m
 set guioptions-=T
 filetype off                  
 
-set rtp+=%HOME%/vimfiles/bundle/Vundle.vim/
-call vundle#begin('%USERPROFILE%/vimfiles/bundle/')
+set rtp+=~/vimfiles/bundle/Vundle.vim/
+call vundle#begin('~/vimfiles/bundle/')
 
 Plugin 'gmarik/vundle'
 
